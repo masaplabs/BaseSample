@@ -10,11 +10,11 @@ import UIKit
 
 class RootTableViewController: UITableViewController {
 
-    // MARK: Properties
+    // MARK: - Properties
     
     let tableViewCellIdentifier = "cell"
     
-    // MARK: Init
+    // MARK: - Init
     
     override convenience init() {
         self.init(nibName: nil, bundle: nil)

@@ -10,7 +10,7 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    // MARK: Init
+    // MARK: - Init
     
     override convenience init() {
         self.init(nibName: nil, bundle: nil)
